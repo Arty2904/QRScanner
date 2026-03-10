@@ -1,18 +1,19 @@
 [versions]
 agp = "8.7.3"
-kotlin = "1.9.23"
-coreKtx = "1.13.1"
+kotlin = "2.0.21"
+ksp = "2.0.21-1.0.28"
+coreKtx = "1.15.0"
 appcompat = "1.7.0"
 material = "1.12.0"
-constraintlayout = "2.1.4"
-lifecycle = "2.8.3"
-navigation = "2.7.7"
-room = "2.6.1"
-hilt = "2.51.1"
+constraintlayout = "2.2.1"
+lifecycle = "2.8.7"
+navigation = "2.8.6"
+room = "2.7.0"
+hilt = "2.55"
 cameraX = "1.4.1"
 mlkitBarcode = "17.3.0"
 zxing = "3.5.3"
-coroutines = "1.8.1"
+coroutines = "1.9.0"
 viewpager2 = "1.1.0"
 
 [libraries]
@@ -60,6 +61,6 @@ viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref =
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
